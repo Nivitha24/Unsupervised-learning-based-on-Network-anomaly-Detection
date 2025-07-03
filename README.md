@@ -1,4 +1,4 @@
-# Unsupervised-learning-based-on-Network-anomaly-Detection
+![graph_1](https://github.com/user-attachments/assets/6a6e76b6-449e-42d5-9e53-87e25a5d11ac)# Unsupervised-learning-based-on-Network-anomaly-Detection
 Using One class SVM, Isolation Forest and Local outlier Factor
 
 📌 Project Overview: Unsupervised Anomaly Detection in Network Traffic
@@ -43,4 +43,8 @@ Autoencoder showed strong performance in identifying subtle anomalies.
 
 ✅ Outcome
 All models were able to detect anomalies to varying degrees. Isolation Forest and Autoencoder performed particularly well on the test data. This proves the effectiveness of unsupervised models in real-world network security scenarios where labeled data is scarce.
-/
+
+
+![graph_1](https://github.com/user-attachments/assets/f800715f-626e-4db0-8ab5-a7661d4a31bb)
+
+
