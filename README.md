@@ -1,19 +1,46 @@
 # Unsupervised-learning-based-on-Network-anomaly-Detection
 Using One class SVM, Isolation Forest and Local outlier Factor
 
+📌 Project Overview: Unsupervised Anomaly Detection in Network Traffic
+This project focuses on detecting anomalies in network traffic data using unsupervised machine learning algorithms. Since anomalies (e.g., intrusions, attacks, unusual patterns) are rare and often unlabeled, unsupervised methods are ideal for identifying such irregular behavior without prior knowledge of labels.
 
-📊 Graph 1: Class Distribution
-Purpose:
-This graph shows how many samples belong to each class — "normal" vs. "anomaly".
+🎯 Objective
+To build and evaluate various unsupervised learning models capable of identifying anomalies in a network dataset, with minimal supervision and high accuracy.
 
-Why it's important:
-It reveals whether the dataset is imbalanced. Most real-world anomaly detection problems have far fewer anomalies than normal events.
+📂 Dataset
+The dataset contains both normal and anomalous traffic records.
 
-Key Observations:
+Each record is described by several numerical features extracted from network connections.
 
-The dataset is highly imbalanced.
+Class labels are used only for evaluation, not during training.
 
-Anomalies are significantly fewer than normal data points.
+🧠 Models Used
+One-Class SVM – Learns a decision boundary around normal data.
 
-Conclusion:
-An imbalanced dataset can affect the model’s ability to detect rare anomalies. Special handling or evaluation metrics may be required.
+Local Outlier Factor (LOF) – Detects outliers based on local density differences.
+
+Isolation Forest – Randomly isolates points to detect anomalies.
+
+Autoencoder (Neural Network) – Reconstructs input data and flags high reconstruction loss as anomaly.
+
+📊 Evaluation Metrics
+Accuracy
+
+Precision / Recall
+
+ROC Curve
+
+Confusion Matrix
+
+Visualization of anomaly scores and decision boundaries
+
+🔍 Key Highlights
+Imbalanced data handling through unsupervised techniques.
+
+Visualizations help interpret model behavior and detect performance gaps.
+
+Autoencoder showed strong performance in identifying subtle anomalies.
+
+✅ Outcome
+All models were able to detect anomalies to varying degrees. Isolation Forest and Autoencoder performed particularly well on the test data. This proves the effectiveness of unsupervised models in real-world network security scenarios where labeled data is scarce.
+/
